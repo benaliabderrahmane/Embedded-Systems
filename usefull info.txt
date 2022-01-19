@@ -5,4 +5,4 @@ password: 123
 
 $touch: create a new file
 $nano: change a file 
-$python filename.py: ran a code
+$python filename.py: run a code
