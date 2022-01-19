@@ -1,0 +1,8 @@
+hostname: pipi
+username: pi
+ip: 192.168.64.47 (64 may change, check it from your current network or from rasbperry screen when it connects)
+password: 123
+
+$touch: create a new file
+$nano: change a file 
+$python filename.py: ran a code
