@@ -1,26 +1,20 @@
 # Embedded-Systems
 
-**Embedded Systems Project -HAE912E-**
+Embedded Systems Project -HAE912E-
 
-- BENALI Abderrahmane
-- BELLILA Ahmed Nassim
-- BOUZIT Zakaria
+BENALI Abderrahmane - BELLILA Ahmed Nassim - BOUZIT Zakaria
 
 # SenseHat Calibration 
-1.Install the requirements : 
-```
+-1-Install the requirements : 
+
 sudo apt install octave -y
 
 cp /usr/share/librtimulib-utils/RTEllipsoidFit ./ -a
-```
-2.Run the calibration tool :
-```
+--2--Run the calibration tool :
 cd RTEllipsoidFit
-
 RTIMULibCal
-```
-3.A configuration menu like this shows up:
-```
+--3--A configuration menu like this shows up:
+
 m - calibrate magnetometer with min/max
 
 e - calibrate magnetometer with ellipsoid (do min/max first)
@@ -28,11 +22,36 @@ e - calibrate magnetometer with ellipsoid (do min/max first)
 a - calibrate accelerometers
 
 x - exit
-```
-we choose an option, then we have to move the Raspberry Pi in all directions on 6 axes.
-Then we save.
 
-Ref : [Sense-Hat calibration](https://raspberrytips.com/sense-hat-tutorial-2/).
+we choose an option, then we have to move the Raspberry Pi in all directions on 6 axes.
+Then we save.  
+
+# exercise 2
+
+The Sense HAT has an 8 × 8 RGB LED matrix, a five – button joystick and includes the following sensors:  
+
+Gyroscope  
+Accelerometer  
+Magnetometer  
+Temperature  
+Barometric pressure  
+Humidity  
+
+Gyroscope – Wikipedia  
+
+A gyroscope is a spinning wheel or disc in which the axis of rotation is free to assume any orientation by itself. (It’s an instrument or device that detects the angle (attitude), angular velocity or angular acceleration of an object.)  
+
+Accelerometer – Wikipedia  
+
+An accelerometer is a device that measures proper acceleration. (A compact accelerometer (acceleration sensor) is fabricated using MEMS technology. MEMS accelerometers are used for automotive airbags, car navigation inclinometers, game controllers, etc.)  
+
+Acceleration – Wikipedia  
+
+Acceleration, in physics, is the rate of change of velocity of an object with respect to time. An object’s acceleration is the net result of any and all forces acting on the object, as described by Newton’s Second Law. Accelerations are vector quantities (they have magnitude and direction).  
+
+Magnetic sensor – Wikipedia  
+
+A magnetometer is an instrument that measures magnetism—either magnetization of magnetic material like a ferromagnet, or the direction, strength, or the relative change of a magnetic field at a particular location.    
 
 # exercise 3
 sudo i2cdetect -y 1    
@@ -56,9 +75,9 @@ Thus, i2c adresses used are :
 0x5f, used by : hts221, Humidity sensor.  
 
 # exercise 4
-the goal here is to measure the humidity and the temperature for that we use the senseHat library on python, then we display the values on the terminal using the print function.
+...
 
 # exercise 5
-the goal is to use the gyroscope to control the moves of a LED on the screen, for that first we calibrate the gyroscope sensor (senseHat calibration already discussed above) then we suppose having the led on the middle (x=4 y=4) on and each time we move the raspberry we move the led in x and y directions, the led movement is supposed to be opposite to the one of the gyroscope (imitating the movement used in mobile games that uses gyroscope) also when we reach the limits we re-initialize to 0 or 7 depending on the limit. 
+...
 
 # exercise 6
