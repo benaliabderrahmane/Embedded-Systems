@@ -13,10 +13,13 @@ sudo apt install octave -y
 cp /usr/share/librtimulib-utils/RTEllipsoidFit ./ -a
 ```
 --2--Run the calibration tool :
+```
 cd RTEllipsoidFit
-RTIMULibCal
---3--A configuration menu like this shows up:
 
+RTIMULibCal
+```
+--3--A configuration menu like this shows up:
+```
 m - calibrate magnetometer with min/max
 
 e - calibrate magnetometer with ellipsoid (do min/max first)
@@ -24,7 +27,7 @@ e - calibrate magnetometer with ellipsoid (do min/max first)
 a - calibrate accelerometers
 
 x - exit
-
+```
 we choose an option, then we have to move the Raspberry Pi in all directions on 6 axes.
 Then we save.
 
