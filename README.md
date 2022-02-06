@@ -4,6 +4,24 @@ BENALI Abderrahmane
 BELLILA Ahmed Nassim
 BOUZIT Zakaria
 
+# SenseHat Calibration 
+Install the requirements : 
+sudo apt install octave -y
+
+Run the calibration tool :
+cp /usr/share/librtimulib-utils/RTEllipsoidFit ./ -a
+cd RTEllipsoidFit
+RTIMULibCal
+
+A configuration menu like this shows up:
+m - calibrate magnetometer with min/max
+e - calibrate magnetometer with ellipsoid (do min/max first)
+a - calibrate accelerometers
+x - exit
+
+we choose an option, then we have to move the Raspberry Pi in all directions on 6 axes.
+Then we save.
+
 # exercise 3
 sudo i2cdetect -y 1  
 
