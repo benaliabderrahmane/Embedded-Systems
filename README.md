@@ -56,7 +56,7 @@ Thus, i2c adresses used are :
 0x5f, used by : hts221, Humidity sensor.  
 
 # exercise 4
-...
+the goal here is to measure the humidity and the temperature for that we use the senseHat library on python, then we display the values on the terminal using the print function.
 
 # exercise 5
 ...
