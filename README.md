@@ -5,9 +5,7 @@ BELLILA Ahmed Nassim
 BOUZIT Zakaria
 
 # SenseHat Calibration 
-Install the requirements : 
-
-sudo apt install octave -y
+Install the requirements : sudo apt install octave -y
 
 Run the calibration tool :
 
