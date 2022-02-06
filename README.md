@@ -6,10 +6,11 @@ BOUZIT Zakaria
 
 # SenseHat Calibration 
 Install the requirements : sudo apt install octave -y
+cp /usr/share/librtimulib-utils/RTEllipsoidFit ./ -a
 
 Run the calibration tool :
 
-cp /usr/share/librtimulib-utils/RTEllipsoidFit ./ -a
+
 
 cd RTEllipsoidFit
 
