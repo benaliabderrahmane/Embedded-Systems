@@ -1,5 +1,5 @@
 from sense_hat import SenseHat
-import time
+import time 
 sense = SenseHat()
 
 #turn off all the leds
