@@ -1,16 +1,16 @@
 # Embedded-Systems
+
 Embedded Systems Project -HAE912E-
-BENALI Abderrahmane
-BELLILA Ahmed Nassim
-BOUZIT Zakaria
+
+BENALI Abderrahmane - BELLILA Ahmed Nassim - BOUZIT Zakaria
 
 # SenseHat Calibration 
+
 Install the requirements : sudo apt install octave -y
+
 cp /usr/share/librtimulib-utils/RTEllipsoidFit ./ -a
 
 Run the calibration tool :
-
-
 
 cd RTEllipsoidFit
 
