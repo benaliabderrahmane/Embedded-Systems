@@ -1,12 +1,10 @@
 # Embedded-Systems
 
-## Embedded Systems Project -HAE912E-
+**Embedded Systems Project -HAE912E-**
 
-BENALI Abderrahmane
-
-BELLILA Ahmed Nassim
-
-BOUZIT Zakaria
+- BENALI Abderrahmane
+- BELLILA Ahmed Nassim
+- BOUZIT Zakaria
 
 # SenseHat Calibration 
 1.Install the requirements : 
