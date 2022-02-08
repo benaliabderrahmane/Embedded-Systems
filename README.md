@@ -108,7 +108,7 @@ Thus, i2c adresses used are :
 0x5c, used by : lps25h, Pressure sensor.  
 0x5f, used by : hts221, Humidity sensor.  
 ```
-Reference [I2C_Addresses]{https://pinout.xyz/pinout/sense_hat}
+Reference [I2C_Addresses](https://pinout.xyz/pinout/sense_hat)
 # exercise 4
 the goal here is to measure the humidity and the temperature for that we use the senseHat functions
 ```
