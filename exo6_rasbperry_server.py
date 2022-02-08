@@ -1,7 +1,7 @@
-#!/usr/bin/python
 from sense_hat import SenseHat
 import time
 import socket
+
 
 sense = SenseHat()
 sense.set_imu_config(True, False, False) #Magnemoter only
