@@ -7,14 +7,14 @@ Embedded Systems Project -HAE912E-
 - BOUZIT Zakaria
 
 # exercice 1 - Configuration
-First of all, we need to configure the Raspberry, for that we use a screen and a keyboard. And follow the instructions : 
-1.raspi-config is a configuration tool in Raspbian. It enables you to configure various settings of your Raspbian installation, such as the keyboard layout, the timezone, the password for the pi user, the SSH access, etc
+First of all, we need to configure the Raspberry, for that we use a screen and a keyboard. And we follow the instructions : 
+1.We set the raspberry informations using raspi-config, it's a configuration tool in Raspbian which enables you to configure various settings of your Raspbian installation, such as the keyboard layout, the timezone, the password for the pi user, the SSH access, etc.
 ```
 sudo raspi-config
 ```
 We set the localizalition and the auto-connect network connection.
 
-2.Adding the Network Details to your Raspberry Pi. We open the wpa-supplicant configuration file in nano:
+2.We add the Network Details to your Raspberry Pi. We open the wpa-supplicant configuration file in nano:
 ```
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
@@ -60,23 +60,23 @@ Then we save.
 # exercise 2
 
 The Sense HAT has an 8 × 8 RGB LED matrix, a five – button joystick and includes the following sensors:  
-
+```
 Gyroscope  
 Accelerometer  
 Magnetometer  
 Temperature  
 Barometric pressure  
 Humidity  
-
-Gyroscope – Wikipedia  
+```
+- Gyroscope – Wikipedia  
 
 A gyroscope is a spinning wheel or disc in which the axis of rotation is free to assume any orientation by itself. (It’s an instrument or device that detects the angle (attitude), angular velocity or angular acceleration of an object.)  
 
-Accelerometer – Wikipedia  
+- Accelerometer – Wikipedia  
 
 An accelerometer is a device that measures proper acceleration. (A compact accelerometer (acceleration sensor) is fabricated using MEMS technology. MEMS accelerometers are used for automotive airbags, car navigation inclinometers, game controllers, etc.)  
 
-Acceleration – Wikipedia  
+- Acceleration – Wikipedia  
 
 Acceleration, in physics, is the rate of change of velocity of an object with respect to time. An object’s acceleration is the net result of any and all forces acting on the object, as described by Newton’s Second Law. Accelerations are vector quantities (they have magnitude and direction).  
 
