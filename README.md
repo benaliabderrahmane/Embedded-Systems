@@ -85,6 +85,7 @@ Acceleration, in physics, is the rate of change of velocity of an object with re
 
 A magnetometer is an instrument that measures magnetism—either magnetization of magnetic material like a ferromagnet, or the direction, strength, or the relative change of a magnetic field at a particular location.    
 
+
 # exercise 3
 sudo i2cdetect -y 1    
 
@@ -107,6 +108,7 @@ Thus, i2c adresses used are :
 0x5c, used by : lps25h, Pressure sensor.  
 0x5f, used by : hts221, Humidity sensor.  
 ```
+Reference [I2C_Addresses]{https://pinout.xyz/pinout/sense_hat}
 # exercise 4
 the goal here is to measure the humidity and the temperature for that we use the senseHat functions
 ```
