@@ -100,13 +100,19 @@ sudo i2cdetect -y 1
 ```
 
 Thus, i2c adresses used are :   
+```
 0x46, used by : led2472g, the led screen.  
 0x1c & 0x6a, used by : LSM9DS1 Inertial Module (IMU), system-in-package featuring a 3D digital linear acceleration sensor, a 3D digital angular rate sensor, and a 3D digital magnetic sensor.  
 0x5c, used by : lps25h, Pressure sensor.  
 0x5f, used by : hts221, Humidity sensor.  
-
+```
 # exercise 4
-the goal here is to measure the humidity and the temperature for that we use the senseHat library on python, then we display the values on the terminal using the print function.
+the goal here is to measure the humidity and the temperature for that we use the senseHat functions
+```
+sense.get_temperature()
+get_humidity()
+```
+then we display the values on the terminal.
 
 # exercise 5
 the goal is to use the gyroscope to control the moves of a LED on the screen, for that first we calibrate the gyroscope sensor (senseHat calibration already discussed above) then we suppose having the led on the middle (x=4 y=4) on and each time we move the raspberry we move the led in x and y directions, the led movement is supposed to be opposite to the one of the gyroscope (imitating the movement used in mobile games that uses gyroscope) also when we reach the limits we re-initialize to 0 or 7 depending on the limit.
