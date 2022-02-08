@@ -6,7 +6,7 @@ Embedded Systems Project -HAE912E-
 - BELLILA Ahmed Nassim 
 - BOUZIT Zakaria
 
-# exeercice 1
+# exercice 1
 
 Reference [GitHub Pages](https://pages.github.com/).
 
@@ -89,3 +89,8 @@ the goal here is to measure the humidity and the temperature for that we use the
 # exercise 5
 the goal is to use the gyroscope to control the moves of a LED on the screen, for that first we calibrate the gyroscope sensor (senseHat calibration already discussed above) then we suppose having the led on the middle (x=4 y=4) on and each time we move the raspberry we move the led in x and y directions, the led movement is supposed to be opposite to the one of the gyroscope (imitating the movement used in mobile games that uses gyroscope) also when we reach the limits we re-initialize to 0 or 7 depending on the limit.
 # exercise 6
+For both server and client we used Socket library available on python.
+
+Soket provides a way of connecting two nodes on a network to communicate with each other. One socket (Server ie : Raspberry, ex : '192.168.137.166') listens on a particular port at an IP (Raspberry IP), while the other socket (Client) reaches out to the other to form a connection. The server forms the listener socket while the client reaches out to the server.
+
+Next, all we need it to get the north direction from SenseHat (north = sense.get_compass()) then send it from the server (Raspeberry) to the local computer client. 
