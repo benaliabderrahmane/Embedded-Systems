@@ -1,6 +1,4 @@
-# Embedded-Systems
-
-Embedded Systems Project -HAE912E-
+# Embedded Systems Project -HAE912E-
 
 - BENALI Abderrahmane 
 - BELLILA Ahmed Nassim 
