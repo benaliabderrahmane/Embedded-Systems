@@ -131,4 +131,5 @@ Next, all we need it to get the north direction from SenseHat
 north = sense.get_compass()
 ```
 then send it from the server (Raspeberry) to the local computer client. 
+
 Reference [Socket](https://www.geeksforgeeks.org/socket-programming-python/).
