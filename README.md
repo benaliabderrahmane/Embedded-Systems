@@ -80,15 +80,14 @@ An accelerometer is a device that measures proper acceleration. (A compact accel
 
 Acceleration, in physics, is the rate of change of velocity of an object with respect to time. An object’s acceleration is the net result of any and all forces acting on the object, as described by Newton’s Second Law. Accelerations are vector quantities (they have magnitude and direction).  
 
-Magnetic sensor – Wikipedia  
+- Magnetic sensor – Wikipedia  
 
 A magnetometer is an instrument that measures magnetism—either magnetization of magnetic material like a ferromagnet, or the direction, strength, or the relative change of a magnetic field at a particular location.    
 
 # exercise 3
 sudo i2cdetect -y 1    
 
-
-  
+```  
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  
 00:          -- -- -- -- -- -- -- -- -- -- -- -- --  
 10: -- -- -- -- -- -- -- -- -- -- -- -- 1c -- -- --  
@@ -98,6 +97,7 @@ sudo i2cdetect -y 1
 50: -- -- -- -- -- -- -- -- -- -- -- -- 5c -- -- 5f  
 60: -- -- -- -- -- -- -- -- -- -- 6a -- -- -- -- --  
 70: -- -- -- -- -- -- -- --  
+```
 
 Thus, i2c adresses used are :   
 0x46, used by : led2472g, the led screen.  
