@@ -6,9 +6,31 @@ Embedded Systems Project -HAE912E-
 - BELLILA Ahmed Nassim 
 - BOUZIT Zakaria
 
-# exercice 1
+# exercice 1 - Configuration
+First of all, we need to configure the Raspberry, for that we use a screen and a keyboard. And follow the instructions : 
+1.raspi-config is a configuration tool in Raspbian. It enables you to configure various settings of your Raspbian installation, such as the keyboard layout, the timezone, the password for the pi user, the SSH access, etc
+```
+sudo raspi-config
+```
+We set the localizalition and the auto-connect network connection.
 
-Reference [GitHub Pages](https://pages.github.com/).
+2.Adding the Network Details to your Raspberry Pi. We open the wpa-supplicant configuration file in nano:
+```
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+and we add the following 
+```
+network={
+    ssid="12345678"
+    psk="87654321"
+}
+```
+and we set the Raspebbry password : 
+```
+raspberry 1 : user : pipi - password : 123
+raspberry 2 : user : raspberry pi - password : 123
+```
+Reference [Configuration](https://www.raspberrypi.com/documentation/computers/configuration.html).
 
 # SenseHat Calibration 
 1.Install the requirements : 
