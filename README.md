@@ -135,7 +135,7 @@ then send it from the server (Raspeberry) to the local computer client.
 Reference [Socket](https://www.geeksforgeeks.org/socket-programming-python/).
 
 # exercise 7 - SenseHat c++
-here we need to set the SenseHat library available for c++, we need to : 
+here we need to set the SenseHat library available for c++, for both Raspberry boards, we need to : 
 
 1.Clone the Repository
 ```
