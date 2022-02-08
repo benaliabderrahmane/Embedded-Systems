@@ -2,21 +2,27 @@
 
 Embedded Systems Project -HAE912E-
 
-BENALI Abderrahmane - BELLILA Ahmed Nassim - BOUZIT Zakaria
+- BENALI Abderrahmane 
+- BELLILA Ahmed Nassim 
+- BOUZIT Zakaria
+
+# exeercice 1
+
+Reference [GitHub Pages](https://pages.github.com/).
 
 # SenseHat Calibration 
--1-Install the requirements : 
+1.Install the requirements : 
 ```
 sudo apt install octave -y
 
 cp /usr/share/librtimulib-utils/RTEllipsoidFit ./ -a
 ```
---2--Run the calibration tool :
+2.Run the calibration tool :
 ```
 cd RTEllipsoidFit
 RTIMULibCal
 ```
---3--A configuration menu like this shows up:
+3.A configuration menu like this shows up:
 ```
 m - calibrate magnetometer with min/max
 
