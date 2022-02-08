@@ -133,3 +133,28 @@ north = sense.get_compass()
 then send it from the server (Raspeberry) to the local computer client. 
 
 Reference [Socket](https://www.geeksforgeeks.org/socket-programming-python/).
+
+# exercise 7 - SenseHat c++
+here we need to set the SenseHat library available for c++, we need to : 
+
+1.Clone the Repository
+```
+pi@raspberry:~ $ git clone https://github.com/PhilippeSimier/SenseHat.git
+pi@raspberry:~ $ cd SenseHat/
+```
+2.install
+```
+pi@raspberry:~/SenseHat $ make
+pi@raspberry:~/SenseHat $ sudo make install
+pi@raspberry:~/SenseHat $ make clean
+```
+Now, we can demonstrate with the example exo7.cpp (Temperature and acceleration measurement) :
+```
+#include <SenseHat.h>
+sense.Effacer()
+sense << setcouleur()
+sense << setrotation()
+sense.ObtenirTemperature()
+sense.ObtenirAcceleration()
+```
+Reference [SenseHat c++](https://github.com/PhilippeSimier/SenseHat).
