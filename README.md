@@ -56,6 +56,7 @@ x - exit
 ```
 we choose an option, then we have to move the Raspberry Pi in all directions on 6 axes.
 Then we save.  
+Reference [Calibration](https://raspberrytips.com/sense-hat-tutorial-2/).
 
 # exercise 2
 
